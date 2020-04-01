@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pop_shape"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_spinner_order_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/pop_bg_selector"
+        android:gravity="center"
+        android:text="按钮一"
+        android:textColor="@drawable/pop_text_selector"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_spinner_property_consultant"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/pop_bg_selector"
+        android:gravity="center"
+        android:text="按钮二"
+        android:textColor="@drawable/pop_text_selector"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_spinner_driver"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/pop_bg_selector"
+        android:gravity="center"
+        android:text="按钮三"
+        android:textColor="@drawable/pop_text_selector"
+        android:textSize="13sp" />
+
+</LinearLayout>
