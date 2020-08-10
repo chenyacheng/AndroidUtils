@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.chenyacheng.SlideChangeActivity;
 import com.chenyacheng.popdialog.PopAndDialogActivity;
 import com.chenyacheng.snackbar.SnackBarActivity;
 
@@ -23,5 +24,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void popAndDialog(View v){
         startActivity(new Intent(MainActivity.this, PopAndDialogActivity.class));
+    }
+
+    public void topBarSlideChange(View v){
+        startActivity(new Intent(MainActivity.this, SlideChangeActivity.class));
     }
 }
