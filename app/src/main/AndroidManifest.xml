@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.chenyacheng.androidutils.SnackBarActivity" />
+        <activity android:name="com.chenyacheng.androidutils.FirstActivity" />
+        <activity android:name="com.chenyacheng.androidutils.SecondActivity" />
     </application>
 
 </manifest>

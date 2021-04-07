@@ -1,4 +1,4 @@
-package com.chenyacheng.snackbar;
+package com.chenyacheng.androidutils;
 
 import android.os.Bundle;
 import android.view.View;
@@ -7,7 +7,7 @@ import android.widget.Button;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.chenyacheng.snack.SnackBarHelper;
+import com.chenyacheng.snackbar.SnackBarHelper;
 
 /**
  * @author Administrator

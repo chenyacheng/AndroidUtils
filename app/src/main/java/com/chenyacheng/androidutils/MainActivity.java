@@ -8,7 +8,6 @@ import android.view.View;
 
 import com.chenyacheng.SlideChangeActivity;
 import com.chenyacheng.popdialog.PopAndDialogActivity;
-import com.chenyacheng.snackbar.SnackBarActivity;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,3 +1,2 @@
-include ':app', ':snackbar', ':popupwindowanddialog'
+include ':app', ':topbarslidechange', ':popupwindowanddialog'
 rootProject.name='AndroidUtils'
-include ':topbarslidechange'
