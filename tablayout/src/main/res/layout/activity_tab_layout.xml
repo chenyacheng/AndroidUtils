@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBE8E7"
+    android:orientation="vertical">
+
+    <com.chenyacheng.tablayout.TabLayoutView
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:select_tab_color="@color/common_7482FE"
+        app:tabSelectTextColor="@color/common_fafafa"
+        app:tabTextColor="@color/common_fafafa"
+        app:tabTextSize="15sp"
+        app:tab_view_bg="@color/common_0E0B36" />
+
+    <com.chenyacheng.tablayout.TabLayoutView1
+        android:id="@+id/tab_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        app:select_tab_color="@color/common_7482FE"
+        app:tabSelectTextColor="@color/common_fafafa"
+        app:tabTextColor="@color/common_fafafa"
+        app:tabTextSize="15sp"
+        app:tab_view_bg="@color/common_0E0B36" />
+
+</LinearLayout>

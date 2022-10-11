@@ -31,6 +31,20 @@
             android:onClick="topBarSlideChange"
             android:text="topBarSlideChange" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:onClick="tabLayout"
+            android:text="tabLayout" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:onClick="animation"
+            android:text="animation" />
+
     </LinearLayout>
 
 </ScrollView>

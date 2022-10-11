@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <!--透明度显示隐藏-->
+    <ImageView
+        android:id="@+id/iv_alpha_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_launcher"
+        android:visibility="invisible" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btn_alpha_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="透明度显示" />
+
+        <Button
+            android:id="@+id/btn_alpha_hide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="透明度隐藏" />
+    </LinearLayout>
+
+    <!--缩放显示隐藏-->
+    <ImageView
+        android:id="@+id/iv_scale_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_launcher"
+        android:visibility="invisible" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btn_scale_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="放大显示" />
+
+        <Button
+            android:id="@+id/btn_scale_hide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="缩小隐藏" />
+    </LinearLayout>
+
+
+    <!--位移显示隐藏-->
+    <ImageView
+        android:id="@+id/iv_translate_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_launcher"
+        android:visibility="invisible" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btn_translate_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="位移显示(向上)" />
+
+        <Button
+            android:id="@+id/btn_translate_hide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="位移隐藏(向下)" />
+    </LinearLayout>
+
+</LinearLayout>
