@@ -38,4 +38,8 @@ public class MainActivity extends AppCompatActivity {
     public void animation(View v) {
         startActivity(new Intent(MainActivity.this, AnimationActivity.class));
     }
+
+    public void countDown(View v) {
+        startActivity(new Intent(MainActivity.this, CountDownActivity.class));
+    }
 }

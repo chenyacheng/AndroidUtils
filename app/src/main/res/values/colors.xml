@@ -6,4 +6,5 @@
 
     <color name="common_00000000">#00000000</color>
     <color name="common_ffffffff">#ffffffff</color>
+    <color name="purple_700">#FF3700B3</color>
 </resources>

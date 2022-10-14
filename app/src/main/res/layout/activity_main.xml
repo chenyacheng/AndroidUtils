@@ -45,6 +45,13 @@
             android:onClick="animation"
             android:text="animation" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:onClick="countDown"
+            android:text="倒计时" />
+
     </LinearLayout>
 
 </ScrollView>

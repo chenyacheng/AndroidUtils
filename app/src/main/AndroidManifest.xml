@@ -20,6 +20,7 @@
         <activity android:name="com.chenyacheng.androidutils.SnackBarActivity" />
         <activity android:name="com.chenyacheng.androidutils.FirstActivity" />
         <activity android:name="com.chenyacheng.androidutils.SecondActivity" />
+        <activity android:name=".CountDownActivity" />
     </application>
 
 </manifest>
