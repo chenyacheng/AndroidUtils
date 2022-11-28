@@ -42,4 +42,8 @@ public class MainActivity extends AppCompatActivity {
     public void countDown(View v) {
         startActivity(new Intent(MainActivity.this, CountDownActivity.class));
     }
+
+    public void countDown1(View v) {
+        startActivity(new Intent(MainActivity.this, CountDownActivity1.class));
+    }
 }

@@ -52,6 +52,13 @@
             android:onClick="countDown"
             android:text="倒计时" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:onClick="countDown1"
+            android:text="倒计时1" />
+
     </LinearLayout>
 
 </ScrollView>

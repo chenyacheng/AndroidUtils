@@ -21,6 +21,7 @@
         <activity android:name="com.chenyacheng.androidutils.FirstActivity" />
         <activity android:name="com.chenyacheng.androidutils.SecondActivity" />
         <activity android:name=".CountDownActivity" />
+        <activity android:name=".CountDownActivity1" />
     </application>
 
 </manifest>

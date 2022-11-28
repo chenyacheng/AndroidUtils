@@ -1,17 +1,19 @@
 package com.chenyacheng.androidutils.library
 
-import kotlinx.coroutines.*
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.*
-import kotlinx.coroutines.flow.flowOn
-import kotlinx.coroutines.flow.onCompletion
-import kotlinx.coroutines.flow.onEach
 
 /**
  * 倒计时
  */
 fun countDownCoroutines(
-    total: Int, onTick: (Int) -> Unit, onFinish: () -> Unit,
-    scope: CoroutineScope = GlobalScope
+    total: Int,
+    onTick: (Int) -> Unit,
+    onFinish: () -> Unit,
+    scope: CoroutineScope
 ): Job {
     return flow {
         for (i in total downTo 1) {
@@ -19,8 +21,8 @@ fun countDownCoroutines(
             delay(1000)
         }
     }.flowOn(Dispatchers.Default)
-        .onCompletion { onFinish.invoke() }
         .onEach { onTick.invoke(it) }
+        .onCompletion { cause -> if (cause == null) onFinish.invoke() }
         .flowOn(Dispatchers.Main)
         .launchIn(scope)
 }
